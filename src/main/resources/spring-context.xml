@@ -14,7 +14,7 @@
     <context:component-scan base-package="cn.vast.ssm.service"/>
 
     <!-- 配置数据库相关参数properties的属性: ${url}-->
-    <context:property-placeholder location="classpath:jdbc.properties"/>
+    <context:property-placeholder location="classpath:jdbc-druid-config.properties"/>
 
     <!-- 配置数据源 -->
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
